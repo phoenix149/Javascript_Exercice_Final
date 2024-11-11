@@ -1,3 +1,6 @@
+let s_SearchA;
+
+
 const personnages = [ 
     { nom: "Luke Skywalker", espece: "Humain", affiliation: "Jedi" }, 
     { nom: "Darth Vader", espece: "Humain", affiliation: "Sith" }, 
@@ -5,8 +8,21 @@ const personnages = [
     { nom: "Obi-Wan Kenobi", espece: "Humain", affiliation: "Jedi" } 
     ];
 
-    document.write("Syndrome de la page blanche je vois pas comment faire mais j'abandonne pas et je mettrais l'exercice sur mon Github." + '<br>' + '<br>');
-    document.write("En attendant c'est parti pour coder en voiture en direction de la charente-maritime."+'<br>' + '<br>');
+    function triAffiliation () {
+        if (s_SearchA == Jedi || s_SearchA == jedi){
+            while ("tant qu'il y a des Jedi crée un nouveau  tableau en poussant chaque personnage de l'affiliation Jedi"){
 
-    document.write('<br>'+'<a href="https://github.com/phoenix149/Javascript_Exercice_Final">Exercice sur mon Github</a>');
+            }
+        }
+        else if (s_SearchA == Sith || s_SearchA == sith){
+            while ("tant qu'il y a des Sith crée un nouveau  tableau en poussant chaque personnage de l'affiliation Sith"){
+                
+            }
+        }
+        else {
+            alert("L'affiliation que vous saisie n'existe pas ou a été mal ortographié.");
+        }
+            
+    }
+
     
